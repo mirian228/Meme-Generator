@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-family: 'Karla';
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 65px;
+}
+
+.header--meme {
+    margin-left: 20px;
+}
+
+.header--text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    margin-right: 37px;
+}
+
+
+.form--inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+}
+
+.form--inputs--first {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    margin-right: 17px;
+    text-indent: 5px;
+}
+
+.form--inputs--second {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.form--button--div {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.form--button {
+    width: 477px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-style: none;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.1em;
+
+}
+
+.form--image--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 268px;
+    margin-top: 36px;
+}
+
+.form--image {
+    position: absolute;
+    width: 477px;
+    height: 268px;
+    border-radius: 2px;
+}
+
+.form--paragraph--first {
+    position: absolute;
+    top: 16px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+    margin: 0;
+}
+
+.form--paragraph--second {
+    position: absolute;
+    bottom: 16px;
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #000000;
+    margin: 0;
+}
